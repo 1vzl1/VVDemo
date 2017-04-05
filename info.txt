@@ -1,0 +1,22 @@
+App name: ChatMD
+App ID: 53b3f67c-48b1-4304-b8f9-1410eaee1cb8
+Password: K99LiSuKFTYcky8LotocsSc
+
+APP ID : 407861906239209
+APP SECRET: 25ea609b809b9102b02dd56f0239824e
+
+
+<script>
+  (function() {
+    var cx = '005678558225547190025:eudrns_0izc';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+
+call in, give account info, be on the line together
