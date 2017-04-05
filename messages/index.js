@@ -187,8 +187,8 @@ bot.dialog('/none', [
     .attachments([
         new builder.HeroCard(session)
             .title(diag)
-            .subtitle(diag)
-            //.text(subtext)
+            //.subtitle(diag)
+            .text(subtext)
             .images([
                 builder.CardImage.create(session, imageurl)
             ])
@@ -199,7 +199,7 @@ bot.dialog('/none', [
   },
   function(session,results){
     if(results.response.entity == "Yes please!"){
-      builder.Prompts.text(session, "Whhich area of the ship are you located in? (Try to be as detailed as possible)");
+      builder.Prompts.text(session, "Which area of the ship are you located in? (Try to be as detailed as possible)");
     }
     else
       session.send(Dialog.endMessage);
