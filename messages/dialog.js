@@ -20,7 +20,7 @@ module.exports={
   medsBloat: "Simethicone (Alka-Seltzer Anti-Gas), probiotic yogourt.",
   medsAche: "Acetaminophen (Tylenol), Aspirin (Bayer), or Ibuprofen (Advil).",
   medsCancer: "seeing a doctor, surgery, radiation therapy, chemotherapy, stem cell transplant.",
-  medsMotion: "taking a nap, chewing gum, and/or getting fresh air",
+  medsMotion: "No medication! take a nap, chew gum, and get some fresh air.",
   
   seeDoctor: "  Would you like directions to the closest medical bay where you can see a doctor?",
 

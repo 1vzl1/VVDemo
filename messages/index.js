@@ -69,7 +69,7 @@ bot.dialog('/none', [
       }
   },
   function(session, results){
-    session.send('Hello %s! Welcome aboard Virgin Voyages.', session.userData.name);
+    session.send('Hello %s! Welcome aboard Virgin Voyages :).', session.userData.name);
     builder.Prompts.choice(session, Dialog.entryMessage, ["Good", "Sick"]);
   },
   function(session, results){
@@ -103,7 +103,7 @@ bot.dialog('/none', [
       diag = "food poisoning"
       medList = Dialog.medsFood;
     }
-    else if ((fOne == 139 || fTwo == 139) && (fOne == 101 || fTwo == 101)){
+    else if ((fOne == 44 || fTwo == 44) && (fOne == 101 || fTwo == 101)){
     	diag ="motion sickness"
     	medList = Dialog.medsMotion;
     }
@@ -198,7 +198,7 @@ bot.dialog('/none', [
   },
   function(session,results){
     if(results.response.entity == "Yes please!"){
-      builder.Prompts.text(session, "What is the closest address to you? (Try to be as detailed as possible)");
+      builder.Prompts.text(session, "Whhich area of the ship are you located in? (Try to be as detailed as possible)");
     }
     else
       session.send(Dialog.endMessage);
@@ -211,7 +211,7 @@ bot.dialog('/none', [
     address = results.response.replace(/ /g, "+");
     imageurl = "https://goo.gl/aoWyEz";
     url = "https://www.google.com/search?q=pharmacies+near+" + address;
-    diag = "Nearby Pharmacies";
+    diag = "Closest Medical Bay";
     subtext = address;
     session.beginDialog('/cards');
     // var url = "https://maps.googleapis.com/maps/api/geocode/"
