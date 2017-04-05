@@ -100,13 +100,13 @@ bot.dialog('/none', [
     var medList = "Tylenol, Advil, or see a doctor!"
 
     if ((fOne == 11 || fTwo == 11) && (fOne == 9 || fTwo == 9)){
-      diag = "food poisoning"
+      diag = "food poisoning";
       medList = Dialog.medsFood;
     }
     else if ((fOne == 44 || fTwo == 44) && (fOne == 101 || fTwo == 101)){
-    	diag ="Motion Sickness"
+    	diag ="Motion Sickness";
+    	subtext ="Motion sickness, also known as kinetosis and travel sickness, is a condition in which a disagreement...";
     	medList = Dialog.medsMotion;
-    	subtext ="Motion sickness, also known as kinetosis and travel sickness, is a condition in which a disagreement..."
     }
     else if(((fOne == 238 || fTwo == 238) && (fOne == 9 || fTwo == 9)) || ((fOne == 238 || fTwo == 238) && (fOne == 54 || fTwo == 54))){
       diag = "depression";
