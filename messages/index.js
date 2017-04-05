@@ -104,8 +104,9 @@ bot.dialog('/none', [
       medList = Dialog.medsFood;
     }
     else if ((fOne == 44 || fTwo == 44) && (fOne == 101 || fTwo == 101)){
-    	diag ="motion sickness"
+    	diag ="Motion Sickness"
     	medList = Dialog.medsMotion;
+    	subtext ="Motion sickness, also known as kinetosis and travel sickness, is a condition in which a disagreement..."
     }
     else if(((fOne == 238 || fTwo == 238) && (fOne == 9 || fTwo == 9)) || ((fOne == 238 || fTwo == 238) && (fOne == 54 || fTwo == 54))){
       diag = "depression";
