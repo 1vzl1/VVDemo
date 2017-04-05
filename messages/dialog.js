@@ -19,10 +19,10 @@ module.exports={
   medsFear: "SSRIs such as Prozac, Zoloft, Paxil, Lexapro, and Celexa.",
   medsBloat: "Simethicone (Alka-Seltzer Anti-Gas), probiotic yogourt.",
   medsAche: "Acetaminophen (Tylenol), Aspirin (Bayer), or Ibuprofen (Advil).",
-  medsCancer:"seeing a doctor, surgery, radiation therapy, chemotherapy, stem cell transplant.",
-  medsMotion:"taking a nap, chewing gum, and/or getting fresh air"
+  medsCancer: "seeing a doctor, surgery, radiation therapy, chemotherapy, stem cell transplant.",
+  medsMotion: "taking a nap, chewing gum, and/or getting fresh air",
   
-  seeDoctor: "  Would you like a map of the closest pharmacies where you can pick up this medication?",
+  seeDoctor: "  Would you like directions to the closest medical bay where you can see a doctor?",
 
   findPharms: "Here are the closest pharmacies for you to pick up medicine: ",
 
