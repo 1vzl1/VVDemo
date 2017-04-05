@@ -69,7 +69,7 @@ bot.dialog('/none', [
       }
   },
   function(session, results){
-    session.send('Hello %s!', session.userData.name);
+    session.send('Hello %s! Welcome aboard Virgin Voyages.', session.userData.name);
     builder.Prompts.choice(session, Dialog.entryMessage, ["Good", "Sick"]);
   },
   function(session, results){
@@ -102,6 +102,10 @@ bot.dialog('/none', [
     if ((fOne == 11 || fTwo == 11) && (fOne == 9 || fTwo == 9)){
       diag = "food poisoning"
       medList = Dialog.medsFood;
+    }
+    else if ((fOne == 139 || fTwo == 139) && (fOne == 101 || fTwo == 101)){
+    	diag ="motion sickness"
+    	medList = Dialog.medsMotion;
     }
     else if(((fOne == 238 || fTwo == 238) && (fOne == 9 || fTwo == 9)) || ((fOne == 238 || fTwo == 238) && (fOne == 54 || fTwo == 54))){
       diag = "depression";
