@@ -178,7 +178,7 @@ bot.dialog('/none', [
 
     session.send("Got it, so you're experiencing " +symptoms+".");
     session.send(Dialog.guessDiagnosis + diag);
-    imageurl = "https://goo.gl/pBQLeH";
+    imageurl = "http://www.healthguidance.org/hgimages/17081Motionsickness.jpg";
     url = "https://en.wikipedia.org/wiki/" + diag;
     //session.beginDialog('/cards');
 
